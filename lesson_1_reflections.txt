@@ -1,0 +1,19 @@
+Using Git and GitHub
+Udacity Course
+
+Git- Version Control System
+GitHub – code sharing and collaboration network
+Use diff in the terminal to compare 2 files (use diff -u)
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: It showed me the lines which were different in both files, spotting the change wasn't hard after that.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: Compare codes, remember how the old code performed, so greater efficiency.
+In Git Terminology user created checkpoints are called commits.
+gif diff operates on commits, comparing the 2 versions of the same file.
+A good rule of thumb is to make one commit per logical change.
+For example, if you fixed a typo, then fixed a bug in a separate part of the file, you should use one commit for each change since they are logically separate.
+Git allows you to write a short message explaining what was changed in each commit.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A: Pros-> subjective thing, you understand better what change should be saved. Cons-> Maybe you do it too often or rarely which could cause trouble.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A : -----
