@@ -1,0 +1,9 @@
+When you initialize the repository, Git doesn’t create any commits for you.  You’ll have to create the first commit yourself.
+git init to initialize git repository
+git status
+What happens when you initialize a repository? Why do you need to do it?
+A: a hidden folder .git is created which basically implies the current directory is a git repository
+git add to add a file to staging area-- git knows this file has to be committed
+If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt and the file will be removed from the staging area, but it will still be in your working directory.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Staging area holds the file/s on which commit is going to be applied, working directory is the directory on which git init has been applied.
