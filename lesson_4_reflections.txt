@@ -1,0 +1,5 @@
+git remote to see remote directories
+git remote add "Name" "URL" to create a remote with name "Name" and URL from github
+git remote -v for more info
+git push "Name" "Branch" -> "Name" is the remote name and "Branch" is the branch you are on
+ 
