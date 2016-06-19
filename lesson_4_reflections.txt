@@ -2,4 +2,12 @@ git remote to see remote directories
 git remote add "Name" "URL" to create a remote with name "Name" and URL from github
 git remote -v for more info
 git push "Name" "Branch" -> "Name" is the remote name and "Branch" is the branch you are on
+When would you want to use a remote repository rather than keeping all your work local?
+A: To share the project with other people
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A : gives greater leeway to user whenever he/she wants to pull changes.
+Forking
+copying others repository from github to your github without the need to pull
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: fork -> cloning other user repository on github to your account on github, clone to achieve this on local systems and branches represent different state of the commits.
  
