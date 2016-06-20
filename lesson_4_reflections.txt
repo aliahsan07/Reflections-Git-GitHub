@@ -10,4 +10,11 @@ Forking
 copying others repository from github to your github without the need to pull
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A: fork -> cloning other user repository on github to your account on github, clone to achieve this on local systems and branches represent different state of the commits.
+git stores local copies of all the remote branches.
+git fetch
+fast forward merges-> when one commit is the ancestor or is reachable from the other commit, moves the label down the ancestory.
+when you can reach the a branch from the other you can fast merge, that is one is reachable from another.
+What is the benefit of having a copy of the last known state of the remote stored locally?
+A: we can work offline and see what differences have we made as compare to the last copy on the github, so its handy for comparison purposes.
+
  
